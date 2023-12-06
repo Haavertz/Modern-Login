@@ -9,42 +9,44 @@
     <link rel="shortcut icon" href="FavIcon.png" type="image/x-icon">
     <title>Modern Login Page</title>
 </head>
+
 <body>
 
-    <main class="container" id="container">
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
         <div class="form-container sign-in">
             <form>
                 <h1>Sign In</h1>
                 <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                 </div>
+
                 <span>or use your email password</span>
                 <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
                 <a href="#">Forget Your Password?</a>
                 <button>Sign In</button>
-                
             </form>
         </div>
-        <div class="form-container sign-up">
-            <form>
-                <h1>Create a Account</h1>
-                <div>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-                <span>or use your email for register</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sing Up</button>
-            </form>
-        </div>
-        <div class="torggle-container">
+        <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back</h1>
+                    <h1>Welcome Back!</h1>
                     <p>Enter your personal details to use all of site features</p>
                     <button class="hidden" id="login">Sign In</button>
                 </div>
@@ -55,7 +57,9 @@
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
