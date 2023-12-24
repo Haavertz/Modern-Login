@@ -3,6 +3,10 @@
 ## Here we have project screenshot :
 
 <div align="center">
-    <img src="images/ReadmeImg.png" alt="ImageInitial">
-    <img src="images/ReadmeImg2.png" alt="ImageInitial2">
+  <table>
+    <tr>
+      <td><img src="images/ReadmeImg.png" alt="ImageInitial" width="400"></td>
+      <td><img src="images/ReadmeImg2.png" alt="ImageInitial2" width="400"></td>
+    </tr>
+  </table>
 </div>
