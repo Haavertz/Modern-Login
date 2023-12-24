@@ -2,4 +2,7 @@
 # Morden Login Page
 ## Here we have project screenshot :
 
-<img src="ReadmeImg.png" alt="ImageInitial">
+<div align="center">
+    <img src="images/ReadmeImg.png" alt="ImageInitial">
+    <img src="images/ReadmeImg2.png" alt="ImageInitial2">
+</div>
